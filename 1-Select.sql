@@ -1,7 +1,7 @@
 SELECT Name, StandardCost, ListPrice
 FROM SalesLT.Product;
 
-
+---
 SELECT Name, ListPrice - StandardCost
 FROM SalesLT.Product;
 
