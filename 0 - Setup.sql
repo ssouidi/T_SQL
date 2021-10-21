@@ -3,7 +3,7 @@ IF OBJECT_ID('SalesLT.DemoTable') IS NOT NULL
 	DROP TABLE SalesLT.DemoTable
 	END
 GO
-
+-- samir test
 
 CREATE TABLE SalesLT.DemoTable
 (ID INT IDENTITY(1,1),
