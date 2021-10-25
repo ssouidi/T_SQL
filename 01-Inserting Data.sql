@@ -50,7 +50,7 @@ SELECT * FROM SalesLT.CallLog;
 -- Retrieving inserted identity
 INSERT INTO SalesLT.CallLog (SalesPerson, CustomerID, PhoneNumber)
 VALUES
-('adventure-works\josé1', 10, '150-555-0127');
+('adventure-works\josï¿½1', 10, '150-555-0127');
 
 SELECT SCOPE_IDENTITY();
 
@@ -61,7 +61,7 @@ SET IDENTITY_INSERT SalesLT.CallLog ON;
 
 INSERT INTO SalesLT.CallLog (CallID, SalesPerson, CustomerID, PhoneNumber)
 VALUES
-(9, 'adventure-works\josé1', 11, '926-555-0159');
+(9, 'adventure-works\jos1', 11, '926-555-0159');
 
 SET IDENTITY_INSERT SalesLT.CallLog OFF;
 
